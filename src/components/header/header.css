@@ -1,0 +1,58 @@
+.headerContainer {
+    height: 90px;
+    background: #efefef;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.create-team-block {
+    width: 50%;
+    background: #fff;
+    height: 60px;
+    display: flex;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 5px;
+    text-align: left;
+}
+
+.input-field label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #79797b;
+    font-weight: bold;
+}
+
+.input-field select, input {
+    height: 45px;
+    padding-left: 6px;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.button-container button {
+    height: 35px;
+    width: 100px;
+    background: #FFC107;
+    border: 1px solid #FFC107;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-container button:disabled {
+    background: #d7d7d7;
+    border: 1px solid #d7d7d7;
+}
